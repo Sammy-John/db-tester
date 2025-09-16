@@ -1,0 +1,33 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio user files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+project.lock.json
+artifacts/
+*.nuget.props
+*.nuget.targets
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Other
+*.DS_Store
