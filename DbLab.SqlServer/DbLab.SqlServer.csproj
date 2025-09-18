@@ -11,4 +11,12 @@
     <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Scripts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DbLab.Core\DbLab.Core.csproj" />
+  </ItemGroup>
+
 </Project>
