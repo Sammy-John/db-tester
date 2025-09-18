@@ -12,8 +12,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Adapters\" />
     <Folder Include="Scripts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DbLab.Core\DbLab.Core.csproj" />
   </ItemGroup>
 
 </Project>
